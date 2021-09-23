@@ -1,0 +1,16 @@
+[package]
+name = "fio-ioengine"
+version = "0.0.0"
+edition = "2021"
+authors = ["lsongzhi <lsongzhi@163.com>"]
+license = "MIT"
+homepage = "https://github.com/songzhi/fio-ioengines"
+documentation = "https://docs.rs/fio-ioengine"
+repository = "https://github.com/songzhi/fio-ioengines"
+description = "Types and traits for Rust-written custom fio ioengine."
+readme = "../README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fio-ioengine-sys = "0.1.0"
